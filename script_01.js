@@ -55,5 +55,22 @@ function ausgabeNamenParams(firstName, familyName) // Parameter
 // ausgabeNamenParams("Marc", "Tigges");
 // ausgabeNamenParams(prompt("Bitte Namen eingeben:"), prompt("und Zunamen eingeben"));
 
-/***** Funktionen 02c *****/
+/***** Funktionen 03a *****/
 // 03a. Vorbereitung
+// DRY = dont repeat yourself 
+// Postulat: one funktion = one job (uncle Bob)
+// SRP single responsibility priciple 
+
+function ausgabeNamenParams2(firstName, familyName) // Parameter
+{ 
+    // 1. Job: string composing
+    let gap = " ";
+    let outputStr = "Hallo " +  firstName  + gap + familyName + "!";
+
+    // 2. Job: output
+    console.log(outputStr);   
+}
+
+ausgabeNamenParams2("Marc", "Tigges");
+
+/***** Funktionen 03b *****/
