@@ -25,7 +25,7 @@ function ausgabeNamen() // refactoring = umschreiben vorhandener Code
 //console.log(firstName); // Fehler --> lokal!!! auserhalb der Funktion nicht sichtbar
 
 /***** Funktionen 02b *****/
-// 2a. Parametrisierung + Datenübergabe von Aussen 
+// 2b. Parametrisierung + Datenübergabe von Aussen 
 
 function ausgabeNamenParam(firstName) 
 { 
@@ -44,3 +44,16 @@ function ausgabeNamenParam(firstName)
 // ausgabeNamenParam(prompt("Bitte Namen eingeben:")); //Lieferung des Arguments über prompt
 // ausgabeNamenParam();
 
+/***** Funktionen 02c *****/
+// 2c. Mehrere Parameter
+
+function ausgabeNamenParams(firstName, familyName) // Parameter
+{ 
+    console.log("Hallo " +  firstName  + " " + familyName + "!");   
+}
+
+// ausgabeNamenParams("Marc", "Tigges");
+// ausgabeNamenParams(prompt("Bitte Namen eingeben:"), prompt("und Zunamen eingeben"));
+
+/***** Funktionen 02c *****/
+// 03a. Vorbereitung
