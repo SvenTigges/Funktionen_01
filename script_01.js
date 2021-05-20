@@ -71,6 +71,13 @@ function ausgabeNamenParams2(firstName, familyName) // Parameter
     console.log(outputStr);   
 }
 
-ausgabeNamenParams2("Marc", "Tigges");
+//ausgabeNamenParams2("Marc", "Tigges");
 
 /***** Funktionen 03b *****/
+
+/** 2. Job: Ausgabe **/
+//output("hi"); // Unit-Test  TDD = Test driven Development 
+function output(outputStr) 
+{
+    console.log(outputStr);
+}
